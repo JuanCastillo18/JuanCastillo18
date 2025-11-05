@@ -1,45 +1,44 @@
 body {
   font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-  background-color: #f8f9fb;
-  color: #1a1a1a;
+  background-color: #ffffff;
+  color: #333333;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
-
 .container {
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 20px;
 }
 
 header {
-  background-color: #e9ecef;
+  background-color: #f2f2f2;
   text-align: center;
   padding: 40px 20px;
-  border-bottom: 3px solid #004080;
+  border-bottom: 1px solid #cccccc;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.3em;
-  color: #003366;
+  font-size: 2em;
+  color: #1a1a1a;
 }
 
 .subtitle {
-  font-size: 1.2em;
-  color: #333;
-  margin-top: 10px;
+  font-size: 1.1em;
+  color: #555555;
+  margin-top: 8px;
 }
 
 .contacto {
-  margin-top: 10px;
   font-size: 0.95em;
-  color: #555;
+  color: #666666;
+  margin-top: 8px;
 }
 
 .contacto a {
-  color: #004080;
+  color: #0044cc;
   text-decoration: none;
 }
 
@@ -47,27 +46,22 @@ header h1 {
   text-decoration: underline;
 }
 
+section {
+  margin-top: 35px;
+}
+
 h2 {
-  border-bottom: 2px solid #004080;
+  border-bottom: 2px solid #0044cc;
   padding-bottom: 5px;
-  color: #003366;
-  margin-top: 40px;
+  color: #0044cc;
+  font-size: 1.3em;
+  margin-bottom: 15px;
 }
 
-.item {
-  margin-bottom: 10px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.skills h3 {
-  color: #004080;
-  font-size: 1.1em;
-  margin-bottom: 8px;
+h3 {
+  font-size: 1.05em;
+  color: #333333;
+  margin-bottom: 6px;
 }
 
 ul {
@@ -75,27 +69,38 @@ ul {
   padding-left: 20px;
 }
 
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== Habilidades ===== */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .widgets {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 15px;
-  margin-top: 10px;
 }
 
 .widgets img {
   width: 280px;
+  border: 1px solid #dddddd;
   border-radius: 6px;
-  border: 1px solid #ccc;
 }
 
 footer {
-  background-color: #e9ecef;
   text-align: center;
+  background-color: #f2f2f2;
   padding: 15px;
   font-size: 0.9em;
-  color: #333;
-  border-top: 3px solid #004080;
+  color: #555555;
+  border-top: 1px solid #cccccc;
   margin-top: 40px;
 }
+
 
